@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.young.hub.sys</groupId>
+        <artifactId>young-sys-api</artifactId>
+        <version>1.0</version>
+    </parent>
+
+    <artifactId>sys-api</artifactId>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.young.hub.sys</groupId>
+            <artifactId>sys-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.young.hub.sys</groupId>
+            <artifactId>sys-client</artifactId>
+        </dependency>
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>young-boot-maven</id>
+            <name>artifactory-releases</name>
+            <url>http://110.42.41.27:8081/repository/maven-releases/</url>
+        </repository>
+    </repositories>
+
+</project>
