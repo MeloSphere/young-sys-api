@@ -1,9 +1,7 @@
 package com.young.hub.sys.client.dto;
 
 import cn.young.boot.common.model.DTO;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
@@ -12,7 +10,5 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-@AllArgsConstructor
-@NoArgsConstructor
 public class UserRequestDTO extends DTO {
 }
