@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>sys-client</artifactId>
-    <version>${clinet.version}</version>
+    <version>1.0.1</version>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>

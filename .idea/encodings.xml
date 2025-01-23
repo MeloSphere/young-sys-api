@@ -7,6 +7,8 @@
     <file url="file://$PROJECT_DIR$/sys-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sys-app/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sys-app/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sys-app/src/main/resources/config-env/dev" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sys-app/src/main/webapp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sys-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sys-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sys-core/src/main/java" charset="UTF-8" />

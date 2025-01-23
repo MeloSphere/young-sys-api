@@ -40,6 +40,12 @@
         </dependency>
 
         <dependency>
+            <groupId>cn.young.boot</groupId>
+            <artifactId>young-boot-json-starter</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+       <!-- <dependency>
             <groupId>com.alibaba.fastjson2</groupId>
             <artifactId>fastjson2</artifactId>
         </dependency>
@@ -49,7 +55,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-json</artifactId>
             <version>2.7.18</version>
-        </dependency>
+        </dependency>-->
     </dependencies>
 
     <repositories>

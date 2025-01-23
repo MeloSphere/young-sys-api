@@ -75,6 +75,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.7.18</version>
                 <configuration>
                     <mainClass>com.young.hub.sys.StartApplication</mainClass>
                     <includeSystemScope>true</includeSystemScope>
@@ -93,6 +94,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-deploy-plugin</artifactId>
+                <version>2.8.2</version>
                 <configuration>
                     <skip>true</skip>
                 </configuration>
