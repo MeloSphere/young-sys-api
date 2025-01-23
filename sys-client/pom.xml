@@ -23,6 +23,13 @@
             <artifactId>young-boot-web-starter</artifactId>
             <version>1.0.0</version>
         </dependency>
+
+        <!---openfeign依赖-->
+        <dependency>
+            <groupId>cn.young.cloud</groupId>
+            <artifactId>young-cloud-openfeign-starter</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 
     <repositories>
