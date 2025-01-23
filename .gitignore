@@ -8,6 +8,8 @@ target/
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
+.idea/encodings.xml
+.idea/*
 *.iws
 *.iml
 *.ipr
@@ -36,4 +38,7 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/.idea/
+/young-sys-api
+/logs/
 /.idea/

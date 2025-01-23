@@ -18,18 +18,38 @@
     </properties>
 
     <dependencies>
+        <!--WEB依赖-->
         <dependency>
             <groupId>cn.young.boot</groupId>
             <artifactId>young-boot-web-starter</artifactId>
             <version>1.0.0</version>
         </dependency>
 
+        <!---openfeign依赖-->
         <dependency>
             <groupId>cn.young.cloud</groupId>
             <artifactId>young-cloud-openfeign-starter</artifactId>
             <version>1.0.0</version>
         </dependency>
 
+        <!--nacos依赖配置-->
+        <dependency>
+            <groupId>cn.young.cloud</groupId>
+            <artifactId>young-cloud-nacos-starter</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.fastjson2</groupId>
+            <artifactId>fastjson2</artifactId>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-json</artifactId>
+            <version>2.7.18</version>
+        </dependency>
     </dependencies>
 
     <repositories>
